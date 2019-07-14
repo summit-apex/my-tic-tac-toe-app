@@ -5,21 +5,21 @@ To avoid errors, do not initialize the new repository with README, license, or g
 
 1. Open Terminal
 1. Change the current working directory to your local project.
-
 1. Initialize the local directory as a Git repository.
 
-```
-$ git init
+   ```
+   $ git init
 
-```
+   ```
+
 1. Add the files in your new local repository. This stages them for the first commit.
 
-```
-$ git add .
+   ```
+   $ git add .
 
-# Adds the files in the local repository and stages them for commit. 
-# To unstage a file, use 'git reset HEAD YOUR-FILE'.
-```
+   # Adds the files in the local repository and stages them for commit. 
+   # To unstage a file, use 'git reset HEAD YOUR-FILE'.
+   ```
 1. Commit the files that you've staged in your local repository.
 
 ```
